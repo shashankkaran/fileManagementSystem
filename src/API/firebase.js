@@ -4,12 +4,13 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.React_App_apiKey,
-  authDomain: process.env.React_App_authDomain,
-  projectId: process.env.React_App_projectId,
-  storageBucket: process.env.React_App_storageBucket,
-  messagingSenderId: process.env.React_App_messagingSenderId,
-  appId: process.env.React_App_appId,
+  apiKey: "AIzaSyASONkB7VlyJ4SmWYJVysgvnZjr5kxymPM",
+  authDomain: "vaibhav-7e189.firebaseapp.com",
+  projectId: "vaibhav-7e189",
+  storageBucket: "vaibhav-7e189.appspot.com",
+  messagingSenderId: "677598177939",
+  appId: "1:677598177939:web:84dd6ffc35e0a7d9343b66",
+  measurementId: "G-P58FE8DJ31"
 };
 
 firebase.initializeApp(firebaseConfig);
